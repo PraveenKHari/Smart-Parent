@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Event Division Mapping</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Event Division Mappings</value>
+    </caseValues>
+    <fields>
+        <label><!-- Division --></label>
+        <name>Division__c</name>
+        <relationshipLabel><!-- Event Division Mappings --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Event --></label>
+        <name>Event__c</name>
+        <relationshipLabel><!-- Event Division Mappings --></relationshipLabel>
+    </fields>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

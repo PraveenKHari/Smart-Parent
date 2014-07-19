@@ -1,0 +1,12 @@
+<apex:page standardController="Account" docType="html-5.0" showHeader="false" sidebar="false" standardStylesheets="true">
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.1/jquery.mobile-1.4.1.min.css" />
+    <script src="//code.jquery.com/jquery-1.9.1.min.js"></script>
+    <script src="//code.jquery.com/mobile/1.4.1/jquery.mobile-1.4.1.min.js"></script>
+
+    <apex:form >
+        <div>
+            <apex:inputField value="{!Account.ParentId}"/>
+        </div>
+    </apex:form>
+</apex:page>

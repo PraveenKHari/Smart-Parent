@@ -1,0 +1,16 @@
+<apex:page standardController="Student__c">
+<input type="button" value="Apply Leave" onclick="btnCreateLeave()" id="btnCreateLeave"/>
+<script>
+    function MyApp() {
+        this.createLeave = function() {
+            sforce.one.navigateToURL("/001/e");
+        };
+    } 
+
+    var app = new MyApp();
+
+    function btnCreateLeave() {
+        app.createLeave();
+    }
+</script>
+</apex:page>

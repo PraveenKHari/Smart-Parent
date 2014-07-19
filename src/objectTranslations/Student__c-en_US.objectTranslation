@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Student</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Students</value>
+    </caseValues>
+    <fields>
+        <label><!-- Address --></label>
+        <name>Address__c</name>
+    </fields>
+    <fields>
+        <label><!-- Date of Birth --></label>
+        <name>Date_of_Birth__c</name>
+    </fields>
+    <fields>
+        <label><!-- Division --></label>
+        <name>Division__c</name>
+        <relationshipLabel><!-- Students --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Email --></label>
+        <name>Email__c</name>
+    </fields>
+    <fields>
+        <label><!-- First Name --></label>
+        <name>First_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Gender --></label>
+        <name>Gender__c</name>
+        <picklistValues>
+            <masterLabel>Female</masterLabel>
+            <translation><!-- Female --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Male</masterLabel>
+            <translation><!-- Male --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Last Name --></label>
+        <name>Last_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Middle Name --></label>
+        <name>Middle_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Parent Name --></label>
+        <name>Parent_Name__c</name>
+        <relationshipLabel><!-- Students --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Phone --></label>
+        <name>Phone__c</name>
+    </fields>
+    <fields>
+        <label><!-- Photo --></label>
+        <name>Photo__c</name>
+    </fields>
+    <layouts>
+        <layout>Student Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Student Mobile Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Fields --></label>
+            <section>Fields</section>
+        </sections>
+        <sections>
+            <label><!-- Photo --></label>
+            <section>Photo</section>
+        </sections>
+    </layouts>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>
